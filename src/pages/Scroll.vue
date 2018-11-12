@@ -1,29 +1,13 @@
 <template>
-  <!--<InfiniteScroll :list="cells" :scrollViewHeight="736">-->
-  <!--<div slot="cell" slot-scope="props"-->
-  <!--:style="props.cell.style">{{props.cell.text}}</div>-->
-  <!--</InfiniteScroll>-->
   <div class="div_list">
-    <!--<List :singerData="singerData"-->
-    <!--:table-len="10" :isedit=true-->
-    <!--:weight="300" :height="400">-->
-    <!--</List>-->
     <list_comment :singerData="singerData"
                   :TableLen="6"></list_comment>
-    <!--<pull-refresh :next="refresh">-->
-    <!--<div slot="list">-->
-    <!--<section v-for="item of list" class="list-item">-->
-    <!--{{item.title}}-->
-    <!--</section>-->
-    <!--</div>-->
-    <!--</pull-refresh>-->
-  <!--<button @click="add">添加</button>-->
   </div>
 
 </template>
 
 <script>
-  import List_comment from './List_comment'
+  import List_comment from '../lib/List_comment'
 
   export default {
     name: 'Scroll',
