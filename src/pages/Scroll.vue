@@ -5,10 +5,9 @@
                     :TableLen="6" ref="list_com"></list_comment>
     </div>
     <div class="div_1">
-      <button @click="up">上一张</button>
-      <button @click="below1">下一张</button>
-      <button @click="add1">添加</button>
-      <button @click="delect1">删除</button>
+      <!--<button @click="up">上一张</button>-->
+      <!--<button @click="below1">下一张</button>-->
+      <button @click="add1" class="dd">添加</button>
     </div>
   </div>
 
@@ -27,11 +26,11 @@
         singerData: [{"id": 1, "image": "http://img15.3lian.com/2015/f2/8/d/96.jpg", "name": "测试1"},
           {"id": 2, "image": "http://img15.3lian.com/2015/f2/8/d/97.jpg", "name": "测试2"},
           {"id": 3, "image": "http://img15.3lian.com/2015/f2/8/d/98.jpg", "name": "测试3"},
-          {"id": 4, "image": "http://img15.3lian.com/2015/f2/8/d/99.jpg", "name": "测试4"},
-          {"id": 5, "image": "http://img15.3lian.com/2015/f2/8/d/111.jpg", "name": "测试5"},
-          {"id": 6, "image": "http://img15.3lian.com/2015/f2/8/d/2.jpg", "name": "测试6"},
-          {"id": 7, "image": "http://img15.3lian.com/2015/f2/8/d/22.jpg", "name": "测试7"},
-          {"id": 8, "image": "http://img15.3lian.com/2015/f2/8/d/11.jpg", "name": "测试8"},
+          // {"id": 4, "image": "http://img15.3lian.com/2015/f2/8/d/99.jpg", "name": "测试4"},
+          // {"id": 5, "image": "http://img15.3lian.com/2015/f2/8/d/111.jpg", "name": "测试5"},
+          // {"id": 6, "image": "http://img15.3lian.com/2015/f2/8/d/2.jpg", "name": "测试6"},
+          // {"id": 7, "image": "http://img15.3lian.com/2015/f2/8/d/22.jpg", "name": "测试7"},
+          // {"id": 8, "image": "http://img15.3lian.com/2015/f2/8/d/11.jpg", "name": "测试8"},
         ],
         id: 0
       }
@@ -127,5 +126,9 @@
   .div_1 {
     margin: 0 auto;
     width: 300px;
+  }
+  .dd{
+    weight:300px;
+    height:40px;
   }
 </style>
