@@ -22,15 +22,9 @@
     components: {List_comment},
     data() {
       return {
-        invTime: 2000,
         singerData: [{"id": 1, "image": "http://img15.3lian.com/2015/f2/8/d/96.jpg", "name": "测试1"},
           {"id": 2, "image": "http://img15.3lian.com/2015/f2/8/d/97.jpg", "name": "测试2"},
           {"id": 3, "image": "http://img15.3lian.com/2015/f2/8/d/98.jpg", "name": "测试3"},
-          // {"id": 4, "image": "http://img15.3lian.com/2015/f2/8/d/99.jpg", "name": "测试4"},
-          // {"id": 5, "image": "http://img15.3lian.com/2015/f2/8/d/111.jpg", "name": "测试5"},
-          // {"id": 6, "image": "http://img15.3lian.com/2015/f2/8/d/2.jpg", "name": "测试6"},
-          // {"id": 7, "image": "http://img15.3lian.com/2015/f2/8/d/22.jpg", "name": "测试7"},
-          // {"id": 8, "image": "http://img15.3lian.com/2015/f2/8/d/11.jpg", "name": "测试8"},
         ],
         id: 0
       }
